@@ -1,3 +1,8 @@
+/*
+C++ program to create class called Student.
+Create a friend function aclled display to display the student details
+*/
+
 #include <iostream>
 class Human {
    private:
