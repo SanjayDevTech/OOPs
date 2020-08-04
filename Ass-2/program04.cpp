@@ -1,3 +1,7 @@
+/*
+C++ Program to create a simple calculator
+*/
+
 #include<iostream>
 class Calculator {
 	private:

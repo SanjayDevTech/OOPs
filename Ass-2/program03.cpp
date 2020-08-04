@@ -1,3 +1,7 @@
+/*
+C++ program to read time in seconds and convert in time format (HH:MM:SS) using class
+*/
+
 #include<iostream>
 class DateTime {
 	private:

@@ -1,3 +1,7 @@
+/*
+C++ program input list of candidates and find winner of the election based on received votes
+*/
+
 #include<iostream>
 class Candidate {
 	private:

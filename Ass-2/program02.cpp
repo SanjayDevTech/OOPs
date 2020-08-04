@@ -1,3 +1,7 @@
+/*
+C++ program to create Student class, read and print N Student's details
+*/
+
 #include<iostream>
 class Student {
 	private:
