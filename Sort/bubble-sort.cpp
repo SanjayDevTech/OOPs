@@ -14,17 +14,13 @@ int main() {
     std::cout << "Enter the number of elements: ";
     std::cin >> n;
     int arr[n];
-    for(int i = 0; i < n; i++) {
-        std::cin >> arr[i];
-    }
+    get_array(arr, n);
     initializer("bubble sort");
     bubble_sort(arr, n);
     print(arr, n);
 }
 
 // Function definitions
-
-
 void bubble_sort(int arr[], int n) {
     // Bubble sort
     for (int pass = 1; pass < n; pass++) {

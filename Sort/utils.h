@@ -12,6 +12,13 @@ void swap(int &a, int &b) {
     b = temp;
 }
 
+void get_array(int arr[], int n) {
+    // Get input from user
+    for(int i = 0; i < n; i++) {
+        std::cin >> arr[i];
+    }
+}
+
 void print(int arr[], int n) {
     // Print the array
     std::cout << "[";
