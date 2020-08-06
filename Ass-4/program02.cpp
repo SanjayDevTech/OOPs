@@ -28,8 +28,8 @@ class Complex {
     Complex operator*(Complex &c) {
         // Multiplication operator
         double d_real, d_imag;
-        d_real = real * c.real;
-        d_imag = imag * c.imag;
+        d_real = (real * c.real) - (imag * c.imag);
+        d_imag = (real * c.imag) + (imag * c.real);
         Complex temp(d_real, d_imag);
         return temp;
     }
