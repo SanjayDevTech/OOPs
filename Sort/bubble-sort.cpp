@@ -2,7 +2,8 @@
 Bubble sort
 O(n2)
 */
-#include<iostream>
+#include <iostream>
+
 #include "utils.h"
 
 // Function declarations
@@ -25,10 +26,10 @@ void bubble_sort(int arr[], int n) {
     // Bubble sort
     for (int pass = 1; pass < n; pass++) {
         std::cout << "Pass: " << pass << std::endl;
-        for (int comp = 1; comp <= n-pass; comp++) {
+        for (int comp = 1; comp <= n - pass; comp++) {
             std::cout << "Comp => " << comp << " ";
-            if (arr[comp] < arr[comp-1]) {
-                swap(arr[comp], arr[comp-1]);
+            if (arr[comp] < arr[comp - 1]) {
+                swap(arr[comp], arr[comp - 1]);
             }
         }
         std::cout << std::endl;
