@@ -1,7 +1,12 @@
 #include <iostream>
 class Shape {
    public:
-    virtual void draw() = 0;
+   Shape() {
+       draw();
+   }
+    virtual void draw() {
+        std::cout << "From shape" << std::endl;
+    };
 };
 class Circle : public Shape {
    public:
