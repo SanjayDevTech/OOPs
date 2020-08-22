@@ -7,7 +7,6 @@ class Student {
 class Engineering : public Student {
    private:
     double mark;
-
    public:
     void get() {
         std::cout << "Enter your engineering mark: ";
@@ -18,7 +17,6 @@ class Engineering : public Student {
 class Medicine : public Student {
    private:
     double mark;
-
    public:
     void get() {
         std::cout << "Enter your medicine mark: ";
@@ -29,7 +27,6 @@ class Medicine : public Student {
 class Science : public Student {
    private:
     double mark;
-
    public:
     void get() {
         std::cout << "Enter your science mark: ";
