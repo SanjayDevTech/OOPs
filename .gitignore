@@ -9,6 +9,7 @@
 !*.*
 *.exe
 .vscode
+*.class
 
 # User-specific files
 *.rsuser
