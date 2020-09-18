@@ -55,7 +55,7 @@ class Matrix {
         }
         Matrix sum = new Matrix(row, col);
         for(int i = 0; i < row; i++) {
-            for(int j = col; j < col; j++) {
+            for(int j = 0; j < col; j++) {
                 sum.setElement(i, j, matrices[i][j]+m2.matrices[i][j]);
             }
         }
